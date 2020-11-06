@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSegura", "WebApiSegura\WebApiSegura.csproj", "{6730CA63-BA54-433B-A4A6-DC5A34B7DFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{386B725A-2353-4385-A95F-4A42E843AE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientLibrary", "ClientLibrary\ClientLibrary.csproj", "{63D9A62E-C855-4FC0-B4AC-F00692977B43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6730CA63-BA54-433B-A4A6-DC5A34B7DFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6730CA63-BA54-433B-A4A6-DC5A34B7DFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6730CA63-BA54-433B-A4A6-DC5A34B7DFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386B725A-2353-4385-A95F-4A42E843AE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386B725A-2353-4385-A95F-4A42E843AE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386B725A-2353-4385-A95F-4A42E843AE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386B725A-2353-4385-A95F-4A42E843AE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D9A62E-C855-4FC0-B4AC-F00692977B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D9A62E-C855-4FC0-B4AC-F00692977B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D9A62E-C855-4FC0-B4AC-F00692977B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D9A62E-C855-4FC0-B4AC-F00692977B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
